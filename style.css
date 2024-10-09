@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    background-image: linear-gradient(rgba(50, 47, 47, 0.75),rgba(50, 49, 49, 0.75)),url(images/fast-fashion-milieu-problemen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+}
+header ul li{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{  
+    color:darkgray;
+    transition:all 0.5s ease;
+}
+header a:hover{
+    color:white;
+    transform:scale(2);
+}
+main{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+main h1{
+    font-size: 3em;
+    border-style:inset;
+    border-radius: 33%;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+section p{
+    width: 75%;
+    text-align: center;
+}
+iframe:hover{
+    animation-name: Groter;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes Groter {
+    0%{
+        opacity: 0.1;
+        transform: scaleY(1);
+    }
+    50%{
+        opacity: 0.7;
+        transform: scaleY(1.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+header img{
+    width: 30%;
+}
+footer{
+    width: 100%;
+    background-color: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/fast-fashion-milieu-problemen.jpg);
+    color: white;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+footer ul li{
+    display:flex;
+    justify-content:space-between;
+    font-size: 1em;
+}
+footer ul li a{
+    color:darkgrey;
+    transition:all 0.5s ease;
+}
+footer a:hover{
+    color:white;
+}
+article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-style: inset;
+}
+article p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dotted;
+    border-radius: 50%;
+}
+section article p{
+    border-style: inset;
+    border-radius: 0%   ;
+}
+article img{
+    width: 35%;
+    height: 50%;
+}
+section img{
+    width: 20%;
+}
+article h2{
+    width: 10%;
+}
+article h3{
+    width: 100%;
+}
+section h3{
+    display: flex;
+    justify-content: space-between;
+}
+
